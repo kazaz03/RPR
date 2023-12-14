@@ -1,0 +1,8 @@
+.root
+{
+    -fx-background-color: lightblue;
+}
+.poljeNijeIspravno
+{
+    -fx-control-inner-background:lightpink;
+}

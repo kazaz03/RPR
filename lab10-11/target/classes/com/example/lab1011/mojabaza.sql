@@ -1,0 +1,10 @@
+create table drzava (id number, naziv varchar2(50), glavni_grad number);
+create table grad (id number, naziv varchar2(50), broj_stanovnika number, drzava);
+insert into drzava(id,naziv,glavni_grad) values(1,'BIH',1);
+insert into grad(id,naziv,broj_stanovnika,drzava) values(1,'Sarajevo',30000,1);
+insert into drzava(id,naziv,glavni_grad) values (2,'Srbija',2);
+insert into grad(id,naziv,broj_stanovnika,drzava) values(2,'Beograd',50000,2);
+insert into drzava(id,naziv,glavni_grad) values(3,'Francuska',3);
+insert into grad(id,naziv,broj_stanovnika,drzava) values(3,'Pariz',120000,3);
+insert into drzava(id,naziv,glavni_grad) values(4,'Engleska',4);
+insert into grad(id,naziv,broj_stanovnika,drzava) values(4,'London',240000,4);
